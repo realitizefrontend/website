@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
+
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars2Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
@@ -10,6 +12,8 @@ import { COMPANY_NAME, MAIN_NAVIGATION } from "@/global-constants";
 import Logo from "@/components/logo";
 
 export default function Navbar() {
+  const pathname = usePathname();
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <header className="fixed inset-x-0 top-0 z-50 font-sans backdrop-blur-sm">
@@ -19,7 +23,7 @@ export default function Navbar() {
       >
         <div className="flex lg:flex-1">
           <Link
-            href="#hero"
+            href="/"
             className="-m-1.5 flex items-center gap-3 p-1.5 text-2xl tracking-wide text-gray-900 dark:text-white"
           >
             <span className="sr-only">Realitize</span>
@@ -41,20 +45,22 @@ export default function Navbar() {
             <Bars2Icon aria-hidden="true" className="size-8" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
-          {MAIN_NAVIGATION.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              className="text-sm/6 font-semibold text-gray-900 dark:text-white"
-            >
-              {item.name}
-            </Link>
-          ))}
-        </div>
+        {pathname === "/" && (
+          <div className="hidden lg:flex lg:gap-x-12">
+            {MAIN_NAVIGATION.map((item) => (
+              <Link
+                key={item.name}
+                href={item.href}
+                className="text-sm/6 font-semibold text-gray-900 dark:text-white"
+              >
+                {item.name}
+              </Link>
+            ))}
+          </div>
+        )}
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link
-            href="#contact"
+            href="/#contact"
             className="hover:bg-brand-500 dark:bg-brand-500 dark:focus-visible:outline-brand-500 dark:hover:bg-brand-400 rounded-md bg-indigo-600 px-2.5 py-1.5 text-sm font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:shadow-none"
           >
             Contact Us

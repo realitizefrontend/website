@@ -12,3 +12,22 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.prose h1 {
+  @apply text-4xl font-semibold tracking-tight text-pretty mb-4;
+}
+.prose h2 {
+  @apply text-2xl font-semibold tracking-tight text-pretty mb-4;
+}
+.prose h3 {
+  @apply text-xl font-semibold tracking-tight text-pretty mb-4;
+}
+.prose p {
+  @apply text-base text-pretty mb-4;
+}
+.prose ul {
+  @apply list-disc pl-8 text-pretty mb-4;
+}
+.prose a {
+  @apply underline;
+}

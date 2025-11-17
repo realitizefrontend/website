@@ -69,7 +69,7 @@ const navigation = {
   ],
 };
 
-export default function FooterSection() {
+export default function Footer() {
   return (
     <footer className="border-t border-gray-900/10 bg-white lg:pt-10 dark:border-white/10 dark:bg-gray-900">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-10 lg:px-8">

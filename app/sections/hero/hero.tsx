@@ -1,5 +1,3 @@
-import Navbar from "@/components/navbar";
-
 import Pattern from "./pattern";
 import Flare from "./flare";
 import Wave from "./wave";
@@ -7,11 +5,10 @@ import FadeIn from "@/components/fade-in";
 
 export default function HeroSection() {
   return (
-    <div
+    <section
       id="hero"
       className="h-screen overflow-x-hidden bg-white font-sans dark:bg-gray-900"
     >
-      <Navbar />
       <div className="relative isolate px-6 pt-14 lg:px-8">
         <Pattern />
         <Flare />
@@ -36,6 +33,6 @@ export default function HeroSection() {
         </div>
       </div>
       <Wave />
-    </div>
+    </section>
   );
 }

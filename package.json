@@ -11,6 +11,10 @@
   "dependencies": {
     "@headlessui/react": "^2.2.9",
     "@heroicons/react": "^2.2.0",
+    "@mdx-js/loader": "^3.1.1",
+    "@mdx-js/react": "^3.1.1",
+    "@next/mdx": "^16.0.3",
+    "@types/mdx": "^2.0.13",
     "@types/three": "^0.181.0",
     "motion": "^12.23.24",
     "motion-plus": "https://api.motion.dev/registry?package=motion-plus&version=1.5.4&token=6900a293034878e0f058a42762c7c1693fbf75835e12feb46e94961d2fd6bedf",

@@ -1,5 +1,8 @@
-import FadeIn from "@/components/fade-in";
+import Link from "next/link";
 import { BuildingOffice2Icon, EnvelopeIcon } from "@heroicons/react/24/outline";
+
+import FadeIn from "@/components/fade-in";
+
 import ContactForm from "./form";
 
 export default function ContactSection() {
@@ -58,12 +61,12 @@ export default function ContactSection() {
             <ContactForm />
             <p className="mt-4 text-sm/6 text-gray-500 dark:text-gray-400">
               By submitting this form, I agree to the{" "}
-              <a
-                href="#"
+              <Link
+                href="/privacy-policy"
                 className="dark:text-brand-400 font-semibold whitespace-nowrap text-indigo-600"
               >
                 privacy policy
-              </a>
+              </Link>
               .
             </p>
           </FadeIn>

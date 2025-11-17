@@ -1,5 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Roboto, Roboto_Mono } from "next/font/google";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 import "./globals.css";
 
@@ -34,7 +36,9 @@ export default function RootLayout({
       <body
         className={`${robotoSans.variable} ${robotoMono.variable} bg-white font-sans text-gray-900 antialiased dark:bg-gray-900 dark:text-white`}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
