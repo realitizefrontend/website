@@ -5,8 +5,8 @@
 @theme inline {
   --font-sans: var(--font-roboto-sans);
   --font-mono: var(--font-roboto-mono);
-  --color-brand-400: #7c86ff;
-  --color-brand-500: #615fff;
+  --color-brand-400: #917dcd;
+  --color-brand-500: #6753ad;
 }
 
 body {
