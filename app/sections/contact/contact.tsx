@@ -31,7 +31,7 @@ export default function ContactSection() {
                 <dd>
                   Montague Sterling Centre,
                   <br />
-                  P.O. Box N-3924, Nassau, Bahamas
+                  N-3924, Nassau, Bahamas
                 </dd>
               </div>
               <div className="flex gap-x-4">

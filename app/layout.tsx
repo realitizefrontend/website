@@ -14,8 +14,10 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Realitize - AI Automation Partner",
-  description: "We build  custom AI systems that align with enterprise goals.",
+  title:
+    "Realitize - Enterprise AI Solutions | Custom AI, Automation & Secure Deployment",
+  description:
+    "Realitize builds secure, enterprise-grade AI systems and workflow automation solutions. You keep full data and model ownership while we design, develop and deploy custom AI aligned to your operations.",
 };
 
 export const viewport: Viewport = {
