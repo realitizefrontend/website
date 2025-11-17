@@ -35,7 +35,7 @@ export const FEATURES = [
   },
 ];
 
-export const CODE_DEMO = `def NeuroIntelligence_Malaria_Detector():
+export const CODE_DEMO = `def CNN_Model_Architecture():
   model = Sequential()
 
   # First Convolutional layer

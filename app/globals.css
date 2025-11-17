@@ -31,3 +31,9 @@ body {
 .prose a {
   @apply underline;
 }
+.prose strong {
+  @apply font-semibold;
+}
+.prose hr {
+  @apply py-4 opacity-20;
+}
