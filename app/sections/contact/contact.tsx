@@ -62,7 +62,7 @@ export default function ContactSection() {
             <p className="mt-4 text-sm/6 text-gray-500 dark:text-gray-400">
               By submitting this form, I agree to the{" "}
               <Link
-                href="/privacy-policy"
+                href="/privacy-policy#main-content"
                 className="dark:text-brand-400 font-semibold whitespace-nowrap text-indigo-600"
               >
                 privacy policy
