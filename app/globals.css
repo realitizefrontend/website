@@ -14,19 +14,19 @@ body {
 }
 
 .prose h1 {
-  @apply text-4xl font-semibold tracking-tight text-pretty mb-4;
+  @apply mb-4 text-4xl font-semibold tracking-tight text-pretty;
 }
 .prose h2 {
-  @apply text-2xl font-semibold tracking-tight text-pretty mb-4;
+  @apply mb-4 text-2xl font-semibold tracking-tight text-pretty;
 }
 .prose h3 {
-  @apply text-xl font-semibold tracking-tight text-pretty mb-4;
+  @apply mb-4 text-xl font-semibold tracking-tight text-pretty;
 }
 .prose p {
-  @apply text-base text-pretty mb-4;
+  @apply mb-4 text-base text-pretty;
 }
 .prose ul {
-  @apply list-disc pl-8 text-pretty mb-4;
+  @apply mb-4 list-disc pl-8 text-pretty;
 }
 .prose a {
   @apply underline;

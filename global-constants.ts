@@ -8,7 +8,6 @@ export const MAIN_NAVIGATION = [
 ];
 
 export const FOOTER_NAVIGATION = [
-  { name: "Privacy Policy", href: "/privacy-policy" },
-  { name: "Terms of Service", href: "/terms-of-service" },
-  { name: "Cookie Policy", href: "/cookie-policy" },
+  { name: "Privacy Policy", href: "/privacy-policy#main-content" },
+  { name: "Terms of Service", href: "/terms-of-service#main-content" },
 ];

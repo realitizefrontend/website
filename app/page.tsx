@@ -4,16 +4,20 @@ import ContactSection from "./sections/contact";
 import ProcessSection from "./sections/process";
 import ServicesSection from "./sections/services";
 import AboutUsSection from "./sections/about-us/about-us";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
-    <main>
-      <HeroSection />
-      <AboutUsSection />
-      <ProcessSection />
-      <ServicesSection />
-      <FaqSection />
-      <ContactSection />
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <HeroSection />
+        <AboutUsSection />
+        <ProcessSection />
+        <ServicesSection />
+        <FaqSection />
+        <ContactSection />
+      </main>
+    </>
   );
 }
