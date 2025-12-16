@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Roboto, Roboto_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import Footer from "@/components/footer";
 
 import "./globals.css";
@@ -37,6 +38,7 @@ export default function RootLayout({
       >
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
