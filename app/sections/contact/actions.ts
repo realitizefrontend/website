@@ -12,7 +12,7 @@ export async function sendMessage(prevState: unknown, formData: FormData) {
   try {
     await resend.emails.send({
       from: "contact@realitize.ai",
-      to: "frontend.dev@realitize.ai",
+      to: "info@realitize.ai",
       subject: `New message from ${name}`,
       replyTo: email,
       html: `<p>${message}</p>`,
