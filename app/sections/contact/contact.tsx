@@ -48,7 +48,7 @@ export default function ContactSection() {
                 </dt>
                 <dd>
                   <a
-                    href="mailto:hello@example.com"
+                    href="mailto:info@realitize.ai"
                     className="hover:text-gray-900 dark:hover:text-white"
                   >
                     info@realitize.ai
