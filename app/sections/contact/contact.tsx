@@ -18,10 +18,9 @@ export default function ContactSection() {
               Get in touch
             </h2>
             <p className="mt-6 text-lg/8 text-gray-600 dark:text-gray-400">
-              Planning a project or looking for guidance? Our team is here to
-              help you take the first step toward intelligent automation.
-              Contact us through the form or by email and we’ll get back to you
-              promptly.
+              Our team is here to help you take the first step toward
+              intelligent automation. Contact us through the form or by email
+              and we’ll get back to you promptly.
             </p>
             <dl className="mt-10 space-y-4 text-base/7 text-gray-600 dark:text-gray-300">
               <div className="flex gap-x-4">
